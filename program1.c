@@ -1,3 +1,4 @@
+// To display the absolute error, relative error and percentage error
 #include <stdio.h>
 #include <math.h>
 
@@ -19,4 +20,5 @@ int main() {
     printf("\nPercentage Error = %lf %%", percentage_error);
 
     return 0;
+
 }
