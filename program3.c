@@ -1,4 +1,4 @@
-// To find the root of an algebraic equation using Regular Falsi method
+// To find the root of an algebraic equation using Regula Falsi method
 
 #include <stdio.h>
 #include <math.h>
@@ -45,4 +45,5 @@ int main() {
 
     return 0;
 }
+
 
