@@ -5,3 +5,4 @@
 2. To find out the root of the algebraic and transcendental equations using bisection method  [Click here](program2.c)
 3. To find out the root of the algebraic and transcendental equations using Regula Falsi method  [Click here](program3.c)
 4. To find the roots of any function using Newton Raphson method upto 3 significant figures [Click here](program4.c)
+5. To find the roots of any function using Fixed Point Iteration method upto 3 significant figures [Click here](program5.c)
