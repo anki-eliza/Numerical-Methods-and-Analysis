@@ -1,4 +1,4 @@
-//To find the roots of any function x*x*x-4*x+1 using Fixed Point Iteration method upto 3 significant digits
+//To find the roots of any function x*x*x-4*x+1 using Fixed Point Iteration method upto 3 significant figures
 
 #include <stdio.h>
 #include <math.h>
@@ -115,3 +115,4 @@ int main() {
 
     
     
+
