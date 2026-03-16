@@ -7,4 +7,4 @@
 4. To find the roots of any function using Newton Raphson method upto 3 significant figures [Click here](program4.c)
 5. To find the roots of any function using Fixed Point Iteration method upto 3 significant figures [Click here](program5.c)
 6. To implement numerical integration using Trapezoidal rule [Click here](program6.c)
-
+7. To implement numerical integration using Simpson's one-third rule [Click here](program7.c)
