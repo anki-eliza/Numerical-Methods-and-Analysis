@@ -9,3 +9,4 @@
 6. To implement numerical integration using Trapezoidal rule [Click here](program6.c)
 7. To implement numerical integration using Simpson's one-third rule [Click here](program7.c)
 8. To implement numerical integration using Simpson's three-eighth rule [Click here](program8.c)
+9. To implement Newton's Forward Interpolation Formula [Click here](program9.c)
