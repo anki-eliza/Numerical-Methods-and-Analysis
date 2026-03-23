@@ -10,3 +10,4 @@
 7. To implement numerical integration using Simpson's one-third rule [Click here](program7.c)
 8. To implement numerical integration using Simpson's three-eighth rule [Click here](program8.c)
 9. To implement Newton's Forward Interpolation Formula [Click here](program9.c)
+10. To implement Newton's Backward Interpolation Formula [Click here](program10.c)
