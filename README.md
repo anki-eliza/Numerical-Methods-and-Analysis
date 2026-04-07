@@ -12,3 +12,4 @@
 9. To implement Newton's Forward Interpolation Formula [Click here](program9.c)
 10. To implement Newton's Backward Interpolation Formula [Click here](program10.c)
 11. To implement Gauss's Forward Interpolation Formula [Click here](program11.c)
+12. To implement Gauss's Backward Interpolation Formula [Click here](program12.c)
