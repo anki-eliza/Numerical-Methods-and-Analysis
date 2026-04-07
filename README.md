@@ -14,3 +14,4 @@
 11. To implement Gauss's Forward Interpolation Formula [Click here](program11.c)
 12. To implement Gauss's Backward Interpolation Formula [Click here](program12.c)
 13. To implement Bessel's Interpolation Formula [Click here](program13.c)
+14. To implement Stirling's Interpolation Formula [Click here](program14.c) 
