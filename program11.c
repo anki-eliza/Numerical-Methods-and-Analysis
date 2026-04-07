@@ -38,7 +38,7 @@ int main() {
          
     
     y = diff[0][0];
-    float term = 1;
+    double term = 1;
 
     for(i = 1; i < n; i++) {
         term = term * (p - (i - 1)) / i;
