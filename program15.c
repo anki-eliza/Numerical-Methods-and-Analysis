@@ -25,7 +25,23 @@ int main() {
         }
     }
 
-    printf("Enter the value of x to find y: ");
+    printf("\nDivided Difference Table:\n\n");
+
+    printf("%10s%12s", "x", "y");
+    for(i = 1; i < n; i++) {
+        printf("%12s%d", "dy", i);
+    }
+    printf("\n");
+
+    for(i = 0; i < n; i++) {
+        printf("%10.4lf", ax[i]);
+        for(j = 0; j < n - i; j++) {
+            printf("%12.4lf", diff[i][j]);
+        }
+        printf("\n");
+    }
+
+    printf("\nEnter the value of x to find y: ");
     scanf("%lf", &x);
 
     y = diff[0][0];
@@ -36,7 +52,7 @@ int main() {
         y = y + term * diff[0][i];
     }
 
-    printf("Interpolated value at x = %lf is y = %lf\n", x, y);
+    printf("\nInterpolated value at x = %lf is y = %lf\n", x, y);
 
     return 0;
 }
