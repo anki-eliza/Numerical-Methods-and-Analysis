@@ -32,7 +32,7 @@
             x1=x0;
         }
 
-        if ( (fabs(x1 - x2) < err) || (fabs(f(x0)) < err) ) {
+        if ( (fabs(x1 - x2) < err) || f(x0)==0 ) {
             printf("The root is %lf", x0);
             break;
         }
