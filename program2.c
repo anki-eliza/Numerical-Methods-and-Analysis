@@ -31,8 +31,8 @@
             x1=x0;
         }
 
-        if ( ((fabs((x1-x2)/x1))< err) || f(x0)==0){
-            printf("The root is %lf ",x0);
+        if ( (fabs(x1 - x2) < err) || (fabs(f(x0)) < err) ) {
+            printf("The root is %lf", x0);
             break;
         }
         
