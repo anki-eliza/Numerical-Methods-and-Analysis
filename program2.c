@@ -18,6 +18,7 @@
 
     if (f(x1)*f(x2)>=0){
         printf("Bisection method not applicable. ");
+        return 0;
     }
     
     while ( 1 ){
