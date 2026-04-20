@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, j;
+    int n, i, j, k, mid;
     double x, h, p, y;
     double ax[50], ay[50], diff[50][50];
 
@@ -22,27 +22,34 @@ int main() {
 
     h = ax[1] - ax[0];
 
-
     for(j = 1; j < n; j++) {
         for(i = 0; i < n - j; i++) {
             diff[i][j] = diff[i+1][j-1] - diff[i][j-1];
         }
     }
 
-
     printf("Enter the value of x to find y: ");
     scanf("%lf", &x);
 
-    
-    p = (x - ax[0]) / h;
-         
-    
-    y = diff[0][0];
+    mid = n / 2;
+
+    p = (x - ax[mid]) / h;
+
+    y = diff[mid][0];
     double term = 1;
 
-    for(i = 1; i < n; i++) {
-        term = term * (p - (i - 1)) / i;
-        y = y + term * diff[0][i];
+    for(k = 1; k < n; k++) {
+
+        if(k == 1)
+            term *= p;
+        else if(k % 2 == 0)
+            term *= (p - (k/2));
+        else
+            term *= (p + (k/2));
+
+        term /= k;
+
+        y += term * diff[mid - (k/2)][k];
     }
 
     printf("Interpolated value at x = %lf is y = %lf\n", x, y);
